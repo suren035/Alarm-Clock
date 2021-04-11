@@ -1,0 +1,15 @@
+body{background-color: #fbf4e2;}
+h1{padding-top: 40%;padding-left: 50px;font-size: 100px;font-family: 'Dancing Script', cursive;}
+.container{background-color: #e7e9f0;width: 320px;height: 600px;border-radius: 20px;padding-left: 0;}
+#clock{margin-top:50px;display: block;margin-left: auto;margin-right: auto;font-size: 40px;}
+.clock{width: 150px;height: 150px;display: flex;justify-content: center;align-items: center;background: url(media/clock.png);background-size: cover;border: 0px solid #bbb;border-radius: 50%;} 
+.clock:before{content: '';position: absolute;width: 15px;height: 15px;background: #000;border-radius: 50%;z-index: 10000;}
+.clock .hour,.clock .min,.clock .sec {position: absolute;}
+.clock .hour, .hr {width: 10px;height: 100px;}                                                                    
+.clock .min, .mn {width: 40px;height: 120px;}                                                                    
+.clock .sec, .sc {width: 10px;height: 30px;}                                                                    
+.hr, .mn, .sc{display: flex;justify-content: center;position: absolute;border-radius: 50%;}
+.hr:before{content: '';position: absolute;width: 6px;height: 50px;background: #dadee6;border-radius: 6px 6px 0 0;z-index: 10;}
+.mn:before{content: '';position: absolute;width: 6px;height: 60px;background: #b3bfd7;border-radius: 6px 6px 0 0;z-index: 11;}
+.sc:before{content: '';position: absolute;width: 2px;height: 70px;background: #fdb6b2;border-radius: 6px 6px 0 0;z-index: 12;}
+.jumbotron{background-color:#392c9c;border: 0.1px solid #392c9c;border-radius: 20px;margin: 15px;margin-top: 70px;}
